@@ -21,29 +21,19 @@ The purpose of this project is to use OpenCV in order to identify a face and eye
 * OpenCV
 * VGG Face Neural Network
 
+
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+OpenCV is a library of programming functions mainly aimed at real-time computer vision. It has many uses, such as to identify objects, classify human actions in videos, remove red eyes from images, following eye movements, and more. In this project, I use OpenCV to detect faces and eyes in images using OpenCV's Haar feature-based cascade classifier. This classifier also returns the location, height, and width of the face. I use that information in order to crop out the face from images and videos. From there, I use the VGGFace pretrained Neural Network to convert the face into a 2622 dimensional vector representation. From this representation, I use the cosine similarity metric to determine if a face is similar to other faces. Finally, I put all of this together in order to perform real-time facial recognition using my webcam.
 
 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* [Notebook](https://github.com/lukemonington/facial_recognition_opencv/blob/main/main_ai.ipynb)
 
 
-## Contributing DSWG Members
+## Contributing Members
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
+**[Luke Monington](https://github.com/lukemonington)**
 
 ## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+* I can be reached at lukemonington@aol.com.
